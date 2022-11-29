@@ -10,9 +10,15 @@
 		FE4BE376292F86A700566779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE375292F86A700566779 /* AppDelegate.swift */; };
 		FE4BE378292F86A700566779 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE377292F86A700566779 /* SceneDelegate.swift */; };
 		FE4BE37A292F86A700566779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE379292F86A700566779 /* ViewController.swift */; };
-		FE4BE37D292F86A700566779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4BE37B292F86A700566779 /* Main.storyboard */; };
 		FE4BE37F292F86A800566779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4BE37E292F86A800566779 /* Assets.xcassets */; };
 		FE4BE382292F86A800566779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4BE380292F86A800566779 /* LaunchScreen.storyboard */; };
+		FE4BE392292F8EE400566779 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE391292F8EE400566779 /* ViewCodeConfiguration.swift */; };
+		FE4BE396292F981C00566779 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE395292F981C00566779 /* TextFieldTableViewCell.swift */; };
+		FE4BE398292F98CE00566779 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE397292F98CE00566779 /* ImageTableViewCell.swift */; };
+		FE4BE39A292F9C5C00566779 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE399292F9C5C00566779 /* Model.swift */; };
+		FECC0ED72936674100F0F9C7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECC0ED62936674100F0F9C7 /* NewViewController.swift */; };
+		FED218D1292FAFA100E2C579 /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED218D0292FAFA100E2C579 /* HeaderTableView.swift */; };
+		FEFE48A029365E7A00B9A765 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFE489F29365E7A00B9A765 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		FE4BE375292F86A700566779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE4BE377292F86A700566779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE4BE379292F86A700566779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE4BE37C292F86A700566779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE4BE37E292F86A800566779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE4BE381292F86A800566779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE4BE383292F86A800566779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4BE391292F8EE400566779 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		FE4BE395292F981C00566779 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		FE4BE397292F98CE00566779 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		FE4BE399292F9C5C00566779 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FECC0ED62936674100F0F9C7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		FED218D0292FAFA100E2C579 /* HeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
+		FEFE489F29365E7A00B9A765 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		FE4BE374292F86A700566779 /* POC_interfaceReuse */ = {
 			isa = PBXGroup;
 			children = (
-				FE4BE375292F86A700566779 /* AppDelegate.swift */,
-				FE4BE377292F86A700566779 /* SceneDelegate.swift */,
-				FE4BE379292F86A700566779 /* ViewController.swift */,
-				FE4BE37B292F86A700566779 /* Main.storyboard */,
-				FE4BE37E292F86A800566779 /* Assets.xcassets */,
-				FE4BE380292F86A800566779 /* LaunchScreen.storyboard */,
+				FE4BE38C292F8BED00566779 /* Source */,
+				FE4BE38A292F8BBB00566779 /* Application */,
+				FE4BE38B292F8BCC00566779 /* Resource */,
 				FE4BE383292F86A800566779 /* Info.plist */,
 			);
 			path = POC_interfaceReuse;
+			sourceTree = "<group>";
+		};
+		FE4BE38A292F8BBB00566779 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE380292F86A800566779 /* LaunchScreen.storyboard */,
+				FE4BE375292F86A700566779 /* AppDelegate.swift */,
+				FE4BE377292F86A700566779 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FE4BE38B292F8BCC00566779 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE37E292F86A800566779 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FE4BE38C292F8BED00566779 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE390292F8EB600566779 /* Protocol */,
+				FE4BE38F292F8C1F00566779 /* View */,
+				FE4BE38E292F8C1700566779 /* Controller */,
+				FE4BE38D292F8C0A00566779 /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FE4BE38D292F8C0A00566779 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE399292F9C5C00566779 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4BE38E292F8C1700566779 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE379292F86A700566779 /* ViewController.swift */,
+				FECC0ED62936674100F0F9C7 /* NewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE4BE38F292F8C1F00566779 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FED218D0292FAFA100E2C579 /* HeaderTableView.swift */,
+				FED218CF292FAF6000E2C579 /* TableViewCell */,
+				FEFE489F29365E7A00B9A765 /* TableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE4BE390292F8EB600566779 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE391292F8EE400566779 /* ViewCodeConfiguration.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FED218CF292FAF6000E2C579 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BE395292F981C00566779 /* TextFieldTableViewCell.swift */,
+				FE4BE397292F98CE00566779 /* ImageTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +159,7 @@
 				FE4BE36E292F86A700566779 /* Sources */,
 				FE4BE36F292F86A700566779 /* Frameworks */,
 				FE4BE370292F86A700566779 /* Resources */,
+				FE4BE389292F8A7D00566779 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,19 +210,45 @@
 			files = (
 				FE4BE382292F86A800566779 /* LaunchScreen.storyboard in Resources */,
 				FE4BE37F292F86A800566779 /* Assets.xcassets in Resources */,
-				FE4BE37D292F86A700566779 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE4BE389292F8A7D00566779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE4BE36E292F86A700566779 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4BE39A292F9C5C00566779 /* Model.swift in Sources */,
+				FE4BE392292F8EE400566779 /* ViewCodeConfiguration.swift in Sources */,
 				FE4BE37A292F86A700566779 /* ViewController.swift in Sources */,
 				FE4BE376292F86A700566779 /* AppDelegate.swift in Sources */,
+				FEFE48A029365E7A00B9A765 /* TableView.swift in Sources */,
+				FED218D1292FAFA100E2C579 /* HeaderTableView.swift in Sources */,
+				FE4BE398292F98CE00566779 /* ImageTableViewCell.swift in Sources */,
+				FECC0ED72936674100F0F9C7 /* NewViewController.swift in Sources */,
+				FE4BE396292F981C00566779 /* TextFieldTableViewCell.swift in Sources */,
 				FE4BE378292F86A700566779 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE4BE37B292F86A700566779 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE4BE37C292F86A700566779 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE4BE380292F86A800566779 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,11 +391,10 @@
 				DEVELOPMENT_TEAM = DVX5N2U74F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = POC_interfaceReuse/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "POC_interfaceReuse wants to use your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +402,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "robson.POC-interfaceReuse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +421,10 @@
 				DEVELOPMENT_TEAM = DVX5N2U74F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = POC_interfaceReuse/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "POC_interfaceReuse wants to use your Camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +432,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "robson.POC-interfaceReuse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
