@@ -20,7 +20,7 @@ struct Model {
 
 struct NavigationForm {
 
-    static func navigation(form: Form) -> UIViewController{
+    static func navigation(form: Form) -> UIViewController {
         switch form {
         case .rgData:
             return ViewController(.rgData)

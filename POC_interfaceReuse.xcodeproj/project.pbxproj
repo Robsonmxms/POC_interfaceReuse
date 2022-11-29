@@ -16,6 +16,7 @@
 		FE4BE396292F981C00566779 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE395292F981C00566779 /* TextFieldTableViewCell.swift */; };
 		FE4BE398292F98CE00566779 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE397292F98CE00566779 /* ImageTableViewCell.swift */; };
 		FE4BE39A292F9C5C00566779 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4BE399292F9C5C00566779 /* Model.swift */; };
+		FEAE04EB293677AB00F2A496 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE04EA293677AB00F2A496 /* ImagePicker.swift */; };
 		FECC0ED72936674100F0F9C7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECC0ED62936674100F0F9C7 /* NewViewController.swift */; };
 		FED218D1292FAFA100E2C579 /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED218D0292FAFA100E2C579 /* HeaderTableView.swift */; };
 		FEFE48A029365E7A00B9A765 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFE489F29365E7A00B9A765 /* TableView.swift */; };
@@ -33,6 +34,7 @@
 		FE4BE395292F981C00566779 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		FE4BE397292F98CE00566779 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		FE4BE399292F9C5C00566779 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FEAE04EA293677AB00F2A496 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FECC0ED62936674100F0F9C7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		FED218D0292FAFA100E2C579 /* HeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
 		FEFE489F29365E7A00B9A765 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		FE4BE38C292F8BED00566779 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FEAE04E92936762700F2A496 /* Extension */,
 				FE4BE390292F8EB600566779 /* Protocol */,
 				FE4BE38F292F8C1F00566779 /* View */,
 				FE4BE38E292F8C1700566779 /* Controller */,
@@ -138,6 +141,22 @@
 				FE4BE391292F8EE400566779 /* ViewCodeConfiguration.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FEAE04E92936762700F2A496 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE04EC2936786E00F2A496 /* ViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FEAE04EC2936786E00F2A496 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE04EA293677AB00F2A496 /* ImagePicker.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FED218CF292FAF6000E2C579 /* TableViewCell */ = {
@@ -247,6 +266,7 @@
 				FEFE48A029365E7A00B9A765 /* TableView.swift in Sources */,
 				FED218D1292FAFA100E2C579 /* HeaderTableView.swift in Sources */,
 				FE4BE398292F98CE00566779 /* ImageTableViewCell.swift in Sources */,
+				FEAE04EB293677AB00F2A496 /* ImagePicker.swift in Sources */,
 				FECC0ED72936674100F0F9C7 /* NewViewController.swift in Sources */,
 				FE4BE396292F981C00566779 /* TextFieldTableViewCell.swift in Sources */,
 				FE4BE378292F86A700566779 /* SceneDelegate.swift in Sources */,
